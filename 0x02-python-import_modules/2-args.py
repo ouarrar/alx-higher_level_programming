@@ -12,7 +12,7 @@ elif lenarg == 1:
     args += ':'
 else:
     args += 's:'
-print(args.format(argc))
+print(args.format(lenarg))
 
 i = 0
 for arg in sys.argv:
