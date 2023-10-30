@@ -23,8 +23,15 @@ class Rectangle:
 
         if self.width == 0 or self.height == 0:
             return ""
-        rep=str(self.print_symbol) * self.width for i in range(self.height)
-        return "\n".join(rep)
+        pattern_lines = []
+
+        line = str(self.print_symbol) * self.width
+
+        for i in range(self.height):
+           pattern_lines.append(line)
+
+        pattern = "\n".join(pattern_lines)
+        return pattern
 
     def __repr__(self):
         """Returns a string representation of the rectangle"""
