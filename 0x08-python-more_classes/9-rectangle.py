@@ -6,9 +6,26 @@ Defines a Rectangle class with attribute and action
 
 class Rectangle:
     """
-    Represents a rectangle
-    """
+    Defines class rectangle with private attribute width and height
 
+    Args:
+        width (int): width
+        height (int): height
+
+    Functions:
+        __init__(self, width, height)
+        __str__(self)
+        __repr__(self)
+        __del__(self)
+        width(self)
+        width(self, value)
+        height(self)
+        height(self, value)
+        area(self)
+        perimeter(self)
+        bigger_or_equal(rect_1, rect_2)
+        square(cls, size=0)
+    """
     number_of_instances = 0
     print_symbol = "#"
 
