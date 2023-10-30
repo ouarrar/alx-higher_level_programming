@@ -22,13 +22,13 @@ class Rectangle:
     @property
     def width(self):
         """
-	Get the width of the Rectangle instance
-	"""
+        Get the width of the Rectangle instance
+        """
         return self.__width
 
     @width.setter
     def width(self, value):
-	"""
+        """
         Sets the width of the Rectangle instance
         """
         if not isinstance(value, int):
@@ -41,13 +41,13 @@ class Rectangle:
     @property
     def height(self):
         """
-	Get the height of the Rectangle instance
-	"""
+        Get the height of the Rectangle instance
+        """
         return self.__height
 
     @height.setter
     def height(self, value):
-	"""
+        """
         Set the height of the Rectangle instance
         """
         if not isinstance(value, int):
