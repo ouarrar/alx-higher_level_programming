@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module: 7-rectangle.py
+Module: 7-rectangle
 """
 
 
@@ -22,7 +22,7 @@ class Rectangle:
     @property
     def width(self):
         """
-        Get the width of the Rectangle instance
+        Gets the width of the Rectangle instance
         """
         return self.__width
 
@@ -41,14 +41,14 @@ class Rectangle:
     @property
     def height(self):
         """
-        Get the height of the Rectangle instance
+        Gets the height of the Rectangle instance
         """
         return self.__height
 
     @height.setter
     def height(self, value):
         """
-        Set the height of the Rectangle instance
+        Sets the height of the Rectangle instance
         """
         if not isinstance(value, int):
             raise TypeError("height must be an integer")
