@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 """
 Class Rectangle with private attribute width and height,
 and public area and perimeter methods
