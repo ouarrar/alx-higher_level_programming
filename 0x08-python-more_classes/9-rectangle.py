@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 
-"""
-Defines a Rectangle class with attribute and action
-"""
+"""Defines a Rectangle class with attribute and action"""
 
 
 class Rectangle:
